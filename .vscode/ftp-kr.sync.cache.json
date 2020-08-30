@@ -1,0 +1,56 @@
+{
+  "ftp://premium13.web-hosting.com@wb@ancoralecomputer.com": {
+    ".ftpquota": {
+      "type": "-",
+      "size": 11,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".gitignore": {
+      "type": "-",
+      "size": 17,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".well-known": {},
+    "Not-Eiffel": {},
+    "css.css": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ftpquota": {
+      "type": "-",
+      "size": 11,
+      "lmtime": 0,
+      "modified": false
+    },
+    "images": {},
+    "index.html": {
+      "type": "-",
+      "size": 20434,
+      "lmtime": 0,
+      "modified": true
+    },
+    "logo.webp": {
+      "type": "-",
+      "size": 4028,
+      "lmtime": 0,
+      "modified": false
+    },
+    "scroll.js": {
+      "type": "-",
+      "size": 1183,
+      "lmtime": 0,
+      "modified": false
+    },
+    "styles.css": {
+      "type": "-",
+      "size": 6053,
+      "lmtime": 0,
+      "modified": true
+    }
+  },
+  "$version": 1
+}

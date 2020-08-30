@@ -1,0 +1,409 @@
+/* variables------ */
+:root {
+  --backGrey: #333;
+  --blue: #00f;
+  --grey: #bbb;
+  --red: #f00;
+  --yellow: #006400;
+  --white: #fff;
+
+  --priFont: "Special Elite";
+  --secFont: "Oxygen";
+  --tirFont: "Josefin Slab";
+}
+
+/* reset---------- */
+* {
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* types---------- */
+body {
+  background-color: var(--backGrey);
+  color: var(--white);
+  font-family: var(--secFont), sans-serif;
+  margin: 1em;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+header {
+  position: relative;
+}
+
+video {
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: transparent no-repeat 0 0;
+  height: 100%;
+  /* position: relative; */
+  width: 100%;
+  /* z-index: -1; */
+}
+
+/* aaaaa---------- */
+.aboutTx {
+  color: var(--grey);
+  font-family: var(--tirFont), serif;
+  font-size: 2em;
+  width: 80%;
+}
+
+.abutton {
+  background: var(--yellow);
+  border-radius: 5px;
+  border: 1px solid var(--grey);
+  color: var(--white);
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  margin: 2% 20% 0 20%;
+}
+
+.abutton a {
+  color: var(--white);
+}
+
+.abutton:hover {
+  background: #0f0;
+}
+
+/* bbbbb---------- */
+.bbutton {
+  /* background: var(--yellow); */
+  border-radius: 5px;
+  /* border: 1px solid var(--grey); */
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  /* margin: 2% 20% 0 20%; */
+}
+
+.bbutton a {
+  color: var(--white);
+}
+
+.bbutton:hover {
+  background: var(--yellow);
+}
+
+/* ccccc---------- */
+.contact {
+  color: var(--grey);
+  font-size: 2em;
+  margin: -1em 0 1em 0;
+}
+
+.cription {
+  color: var(--grey);
+  margin: 1em;
+}
+
+.cripBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 1em 0 1em;
+}
+
+.cripSubTitle {
+  font-size: 1em;
+  margin: 0.5em;
+}
+
+.cripTitle {
+  font-family: var(--priFont), cursive;
+  font-size: 3em;
+}
+
+.contact {
+  font-size: 1em;
+}
+
+/* ddddd---------- */
+.dispFlex {
+  display: flex;
+}
+
+/* eeeee---------- */
+
+/* fffff---------- */
+.fadeIn.isVisible {
+  animation: fadeIn 2s forwards;
+  will-change: opacity;
+}
+
+.fs5em {
+  font-size: 5em;
+}
+
+.fs75em {
+  font-size: 0.75em;
+}
+
+/* ggggg---------- */
+
+/* hhhhh---------- */
+.hw100 {
+  height: 100%;
+  width: 100%;
+}
+
+.hw125 {
+  height: 125%;
+  width: 125%;
+}
+
+/* iiiii---------- */
+.inbutton {
+  padding-top: 0.3em;
+}
+
+/* jjjjj---------- */
+.jcc {
+  display: flex;
+  justify-content: center;
+}
+
+.jsc {
+  display: flex;
+  justify-self: center;
+}
+
+/* kkkkk---------- */
+
+/* lllll---------- */
+.leftVisible.isVisible {
+  animation: leftVisible 2s 1 forwards;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+/* mmmmm---------- */
+.marTop1em {
+  margin-top: 1em;
+}
+
+.ml2rem {
+  margin-left: 2rem;
+}
+
+.ml3rem {
+  margin-left: 2.3rem;
+}
+
+.mr2rem {
+  margin-right: 2rem;
+}
+
+/* nnnnn---------- */
+
+/* ooooo---------- */
+
+/* ppppp---------- */
+.padBot4em {
+  padding-bottom: 4em;
+}
+
+/* qqqqq---------- */
+
+/* rrrrr---------- */
+.rightVisible.isVisible {
+  animation: rightVisible 2s 1 forwards;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.rmTxDec {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.rmTxDec:hover,
+.rmTxWt:hover {
+  color: var(--red);
+}
+
+.rmTxWt {
+  color: var(--white);
+  text-decoration: none;
+}
+
+/* sssss---------- */
+.shineText {
+  position: relative;
+  font-family: var(--priFont);
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #fff, #000, #fff);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: 3s animate linear infinite;
+  -webkit-animation: 3s animate linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  z-index: 3;
+}
+
+.spacer {
+  align-items: center;
+  background-color: var(var(--backGrey));
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  width: 100%;
+}
+
+.specElite {
+  font-family: var(--priFont), cursive;
+}
+
+/* ttttt---------- */
+.tab {
+  text-indent: 5%;
+}
+
+.titleText {
+  left: 50%;
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+}
+
+.txDecNo {
+  text-decoration: none;
+}
+
+/* uuuuu---------- */
+
+/* vvvvv---------- */
+
+/* wwwww---------- */
+.w40 {
+  width: 40%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+/* xxxxx---------- */
+
+/* yyyyy---------- */
+
+/* zzzzz---------- */
+
+/* miscs---------- */
+@-webkit-keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes leftVisible {
+  0% {
+    transform: translate(-2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes rightVisible {
+  0% {
+    transform: translate(2000px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  figure {
+    align-self: center;
+  }
+
+  .abutton {
+    margin: 2% 10% 0 10%;
+  }
+
+  .cripTitle {
+    font-size: 1.5em;
+  }
+
+  .hw100 {
+    height: 100px;
+    width: 100px;
+  }
+
+  .inbutton {
+    padding: 0.5em 0 0 0;
+  }
+
+  .medQuryCont {
+    position: relative;
+  }
+
+  .shineText {
+    font-size: 1em;
+  }
+
+  .subTx {
+    font-size: 0.75em;
+    margin: 0 1em 0 1em;
+  }
+
+  .titleText {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    z-index: 1;
+  }
+
+  span.titleText {
+    font-size: 0.75em;
+    left: 30%;
+    top: 55%;
+  }
+
+  .txDecNo {
+    font-size: 0.75em;
+  }
+}
