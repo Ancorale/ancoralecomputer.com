@@ -20,6 +20,12 @@
       "lmtime": 0,
       "modified": false
     },
+    "file.php": {
+      "type": "-",
+      "size": 70274,
+      "lmtime": 0,
+      "modified": false
+    },
     "ftpquota": {
       "type": "-",
       "size": 11,
@@ -29,7 +35,7 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 20434,
+      "size": 19750,
       "lmtime": 0,
       "modified": true
     },
