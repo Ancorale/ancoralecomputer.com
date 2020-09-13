@@ -1,3 +1,4 @@
+
 /* variables------ */
 :root {
   --backGrey: #333;
@@ -156,8 +157,8 @@ video {
 
 /* hhhhh---------- */
 .hw100 {
-  height: 100%;
-  width: 100%;
+  height: 427px;
+  width: 640px;
 }
 
 .hw125 {
@@ -241,6 +242,10 @@ video {
 }
 
 /* sssss---------- */
+.shineBack {
+  background: var(--backGrey);
+}
+  
 .shineText {
   position: relative;
   font-family: var(--priFont);
@@ -369,8 +374,8 @@ video {
   }
 
   .hw100 {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
   }
 
   .inbutton {

@@ -1,0 +1,19 @@
+order allow,deny
+deny from 93.188.98.246
+deny from 80.211.87.88
+deny from 46.254.39.142
+deny from 203.49.0.142
+deny from 52.234.88.211
+deny from 74.125.210.31
+deny from 167.172.242.240
+deny from 13.58.141.241
+deny from 3.17.210.127
+deny from 82.84.83.117
+deny from 54.214.223.67
+deny from 52.87.44.246
+deny from 177.69.110.229
+deny from 186.215.92.72
+deny from 223.196.44.71
+deny from 66.226.125.197
+deny from 3.17.210.127
+allow from all

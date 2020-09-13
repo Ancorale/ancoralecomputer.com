@@ -12,30 +12,19 @@
       "lmtime": 0,
       "modified": false
     },
+    ".htaccess": {
+      "type": "-",
+      "size": 455,
+      "lmtime": 0,
+      "modified": true
+    },
+    ".vscode": {},
     ".well-known": {},
     "Not-Eiffel": {},
-    "css.css": {
-      "type": "-",
-      "size": 0,
-      "lmtime": 0,
-      "modified": false
-    },
-    "file.php": {
-      "type": "-",
-      "size": 70274,
-      "lmtime": 0,
-      "modified": false
-    },
-    "ftpquota": {
-      "type": "-",
-      "size": 11,
-      "lmtime": 0,
-      "modified": false
-    },
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 19750,
+      "size": 22048,
       "lmtime": 0,
       "modified": true
     },
@@ -53,7 +42,7 @@
     },
     "styles.css": {
       "type": "-",
-      "size": 6053,
+      "size": 6108,
       "lmtime": 0,
       "modified": true
     }

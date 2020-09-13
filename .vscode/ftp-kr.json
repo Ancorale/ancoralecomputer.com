@@ -1,17 +1,13 @@
 {
-    "host": "premium13.web-hosting.com",
-    "username": "wb@ancoralecomputer.com",
-    "password": "Friday=00",
-    "remotePath": "",
-    "protocol": "ftp",
-    "port": 0,
-    "fileNameEncoding": "utf8",
-    "autoUpload": true,
-    "autoDelete": true,
-    "autoDownload": false,
-    "diffThis": false,
-    "ignore": [
-        ".git",
-        "/.vscode"
-    ]
+  "host": "premium13.web-hosting.com",
+  "username": "wb@ancoralecomputer.com",
+  "password": "Friday=00",
+  "remotePath": "",
+  "protocol": "ftp",
+  "port": 0,
+  "fileNameEncoding": "utf8",
+  "autoUpload": true,
+  "autoDelete": true,
+  "autoDownload": false,
+  "ignore": [".git", "/.vscode"]
 }
