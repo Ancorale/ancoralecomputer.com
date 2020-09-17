@@ -55,7 +55,7 @@ video {
 
 /* aaaaa---------- */
 .aboutTx {
-  color: var(--grey);
+  color: var(--white);
   font-family: var(--tirFont), serif;
   font-size: 2em;
   width: 80%;

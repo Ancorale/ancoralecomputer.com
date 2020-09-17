@@ -14,13 +14,19 @@
     },
     ".htaccess": {
       "type": "-",
-      "size": 455,
+      "size": 900,
       "lmtime": 0,
       "modified": true
     },
     ".vscode": {},
     ".well-known": {},
     "Not-Eiffel": {},
+    "favicon.ico": {
+      "type": "-",
+      "size": 15086,
+      "lmtime": 0,
+      "modified": false
+    },
     "google0d40615e15ef724f.html": {
       "type": "-",
       "size": 55,
@@ -30,15 +36,9 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 22048,
+      "size": 22037,
       "lmtime": 0,
       "modified": true
-    },
-    "logo.webp": {
-      "type": "-",
-      "size": 4028,
-      "lmtime": 0,
-      "modified": false
     },
     "scroll.js": {
       "type": "-",
@@ -46,9 +46,15 @@
       "lmtime": 0,
       "modified": false
     },
+    "sitemap.xml": {
+      "type": "-",
+      "size": 505,
+      "lmtime": 0,
+      "modified": false
+    },
     "styles.css": {
       "type": "-",
-      "size": 6108,
+      "size": 6109,
       "lmtime": 0,
       "modified": true
     }
