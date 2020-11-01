@@ -1,4 +1,3 @@
-
 /* variables------ */
 :root {
   --backGrey: #333;
@@ -81,6 +80,21 @@ video {
 }
 
 /* bbbbb---------- */
+.banner {
+  align-items: center;
+  color: var(--grey);
+  display: flex;
+  font-family: "Orbitron", sans-serif;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid var(--grey);
+}
+
+.bannerBody {
+  line-height: 1.75;
+}
+
 .bbutton {
   /* background: var(--yellow); */
   border-radius: 5px;
@@ -245,10 +259,10 @@ video {
 .shineBack {
   background: var(--backGrey);
 }
-  
+
 .shineText {
   position: relative;
-  font-family: var(--priFont);
+  font-family: "Creepster", cursive;
   /* text-transform: uppercase; */
   font-size: 2em;
   letter-spacing: 4px;
@@ -365,8 +379,21 @@ video {
     align-self: center;
   }
 
+  figure > a.banner > img {
+    width: 60%;
+  }
+
+  .aboutTx {
+    font-size: 1.3em;
+  }
+
   .abutton {
     margin: 2% 10% 0 10%;
+  }
+
+  .bannerBody {
+    font-size: .5em;
+    margin: .2em .5em .2em .5em;
   }
 
   .cripTitle {

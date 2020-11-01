@@ -4,7 +4,7 @@
       "type": "-",
       "size": 11,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     ".gitignore": {
       "type": "-",
@@ -14,13 +14,12 @@
     },
     ".htaccess": {
       "type": "-",
-      "size": 1623,
+      "size": 565,
       "lmtime": 0,
       "modified": true
     },
     ".vscode": {},
     ".well-known": {},
-    "Not-Eiffel": {},
     "favicon.ico": {
       "type": "-",
       "size": 15086,
@@ -36,15 +35,15 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 22148,
+      "size": 21798,
       "lmtime": 0,
       "modified": true
     },
     "scroll.js": {
       "type": "-",
-      "size": 1183,
+      "size": 1199,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "sitemap.xml": {
       "type": "-",
@@ -54,10 +53,11 @@
     },
     "styles.css": {
       "type": "-",
-      "size": 6109,
+      "size": 6563,
       "lmtime": 0,
       "modified": true
-    }
+    },
+    "video": {}
   },
   "$version": 1
 }
