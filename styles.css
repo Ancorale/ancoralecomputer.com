@@ -79,6 +79,10 @@ video {
   background: #0f0;
 }
 
+.aladin {
+  font-family: "Aladin", cursive;
+}
+
 /* bbbbb---------- */
 .banner {
   align-items: center;
@@ -262,7 +266,7 @@ video {
 
 .shineText {
   position: relative;
-  font-family: "Creepster", cursive;
+
   /* text-transform: uppercase; */
   font-size: 2em;
   letter-spacing: 4px;
@@ -392,8 +396,8 @@ video {
   }
 
   .bannerBody {
-    font-size: .5em;
-    margin: .2em .5em .2em .5em;
+    font-size: 0.5em;
+    margin: 0.2em 0.5em 0.2em 0.5em;
   }
 
   .cripTitle {
