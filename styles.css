@@ -40,6 +40,12 @@ header {
   position: relative;
 }
 
+li {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+  font-family: var(--secFont);
+}
+
 video {
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -117,6 +123,13 @@ video {
   background: var(--yellow);
 }
 
+.booTitle {
+  margin: 8em 0 0 4em;
+  position: absolute;
+  font-size: 4rem;
+  font-family: var(--priFont), cursive;
+}
+
 /* ccccc---------- */
 .contact {
   color: var(--grey);
@@ -172,6 +185,9 @@ video {
 }
 
 /* ggggg---------- */
+.greedy {
+  font-size: 2em;
+}
 
 /* hhhhh---------- */
 .hw100 {
@@ -238,6 +254,10 @@ video {
 /* qqqqq---------- */
 
 /* rrrrr---------- */
+.red {
+  color: red;
+}
+
 .rightVisible.isVisible {
   animation: rightVisible 2s 1 forwards;
   opacity: 0;
@@ -387,6 +407,12 @@ video {
     width: 60%;
   }
 
+  li {
+    font-size: 1em;
+    margin: 0 0 0.5rem 0.5em;
+    font-family: var(--secFont);
+  }
+
   .aboutTx {
     font-size: 1.3em;
   }
@@ -400,8 +426,21 @@ video {
     margin: 0.2em 0.5em 0.2em 0.5em;
   }
 
+  .booTitle {
+    margin: 6.2em 0 0 1em;
+    position: absolute;
+    font-size: 2rem;
+    font-family: var(--priFont), cursive;
+  }
+
   .cripTitle {
     font-size: 1.5em;
+  }
+
+  .greedy {
+    font-size: 1.5em;
+    position: relative;
+    top: 2em;
   }
 
   .hw100 {
@@ -429,7 +468,7 @@ video {
   .titleText {
     position: absolute;
     left: 30%;
-    top: 5%;
+    top: 30%;
     z-index: 1;
   }
 

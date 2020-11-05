@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOOT Fix</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Fix computer won't boot up" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aladin&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+      />
+    </noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css?family=Oxygen&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Oxygen&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Oxygen&display=swap"
+      />
+    </noscript>
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
+      />
+    </noscript>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-176103351-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-176103351-1");
+    </script>
+  </head>
+  <body>
+    <header class="medQuryCont">
+      <div class="shineText dispFlex jcc specElite">
+        fix when my computer won't boot up
+      </div>
+      <div class="titleText">
+        <h1 class="specElite fs5em ml3rem">ACS</h1>
+        <span class="">Ancorale Computer Solutions</span>
+        <br />
+        <div class="bbutton">
+          <a href="tel:+01-702-706-2848" class="txDecNo inbutton" role="button"
+            >702.706.2848</a
+          >
+        </div>
+      </div>
+      <div class="booTitle fadeIn scroll">so your pc won't boot up...</div>
+      <video muted autoplay loop poster="video/eiffel.jpg" id="eiffel">
+        <source src="video/eiffel.ogv" type="video/ogv" />
+        <source src="video/eiffel.mp4" type="video/mp4" />
+      </video>
+    </header>
+
+    <div class="spacer"></div>
+
+    <div class="jcc">
+      <div class="specElite">
+        <p class="fadeIn scroll greedy">
+          &nbsp; cuz I ain't greedy and it's super simple:
+        </p>
+        <br />
+        <div class="spacer"></div>
+        <ol>
+          <li class="fadeIn scroll fs1_5em">
+            Get you a flash drive with at least 8 gigabytes.
+          </li>
+          <li class="fadeIn scroll fs1_5em">
+            You will need a copy of Windows. You can get one
+            <a
+              href="https://www.microsoft.com/en-us/software-download/windows10"
+              class="txDecNo red"
+            >
+              HERE! </a
+            >(use the Media Creation Tool)
+          </li>
+          <li class="fadeIn scroll fs1_5em">Follow the instructions ↑↑↑</li>
+          <li class="fadeIn scroll fs1_5em">
+            You are going to need to enable your computer to boot using the
+            flash drive. <br />Typically, you can get into the boot menu by into
+            by tapping one of the funtion keys, usually F8.<br />
+            If that doesn't work, google it.
+          </li>
+          <li class="fadeIn scroll fs1_5em">
+            When your computer reboots and says 'Hit any key', do it.
+          </li>
+          <li class="fadeIn scroll fs1_5em">
+            Click the NEXT button in the bottom right when you see it.
+          </li>
+          <li class="fadeIn scroll fs1_5em">
+            On the bottom right of the next page, you'll see 'Repair your
+            computer'.<br />Click it.
+          </li>
+          <li class="fadeIn scroll fs1_5em">Choose Troubleshoot.</li>
+          <li class="fadeIn scroll fs1_5em">Advanced options.</li>
+          <li class="fadeIn scroll fs1_5em">Command Prompt.</li>
+          <li class="fadeIn scroll fs1_5em">
+            Type 'D:' and ENTER in the command prompt
+          </li>
+          <li class="fadeIn scroll fs1_5em">
+            Type 'bootrec.exe /fixmbr' and ENTER.
+          </li>
+          <li class="fadeIn scroll fs1_5em">
+            type 'bootrec.exe /fixboot' and press ENTER.
+          </li>
+          <li class="fadeIn scroll fs1_5em">
+            If you don't get 'The operation completed successfully' after
+            each,<br />try 'bootrec.exe /rebuildbcd' and press ENTER.
+          </li>
+          <li class="fadeIn scroll fs1_5em">If that don't work, call me. <a href="tel:+01-702-706-2848" class="rmTxDec"> 702.706.2848</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <a class="txDecNo inbutton abutton" role="button" href="index.html">
+      Go Home</a
+    >
+
+    <div class="spacer"></div>
+
+    <div class="cripTitle spacer fadeIn scroll">contact...</div>
+
+    <div class="jcc fadeIn scroll">Ancorale Computer Solutions</div>
+    <br />
+    <a
+      href="tel:+01-702-706-2848"
+      class="rmTxDec inbutton abutton"
+      role="button"
+    >
+      702.706.2848</a
+    >
+    <br />
+    <p class="jcc">or</p>
+    <a
+      href="mailto:services@ancoralecomputer.com"
+      class="rmTxDec inbutton abutton"
+      role="button"
+      >services@ancoralecomputer.com
+    </a>
+    <a
+      class="txDecNo inbutton abutton"
+      role="button"
+      href="https://squ.re/32hMRbV"
+    >
+      Book an Appointment</a
+    >
+
+    <div class="spacer"></div>
+
+    <div class="dispFlex jcc fadeIn scroll">
+      <a href="https://www.alignable.com"
+        ><img
+          alt="Recommended by Locals On Alignable"
+          title="Recommended by Locals On Alignable"
+          src="https://www.alignable.com/assets/badge/alignable-r2.png"
+      /></a>
+    </div>
+
+    <div class="spacer"></div>
+
+    <footer class="dispFlex jcc fadeIn scroll">
+      <br />
+      <a href="https://www.ancorale.com" class="rmTxDec specElite">
+        ancorale digital design&copy; 2020
+      </a>
+    </footer>
+    <script src="scroll.js"></script>
+    <script src="https://cdn.ywxi.net/js/1.js" async></script>
+  </body>
+</html>
