@@ -43,7 +43,7 @@ header {
 li {
   font-size: 1.5em;
   margin-bottom: 1rem;
-  font-family: var(--secFont);
+  font-family: var(--tirFont);
 }
 
 video {
@@ -106,13 +106,10 @@ video {
 }
 
 .bbutton {
-  /* background: var(--yellow); */
   border-radius: 5px;
-  /* border: 1px solid var(--grey); */
   display: flex;
   height: 2em;
   justify-content: center;
-  /* margin: 2% 20% 0 20%; */
 }
 
 .bbutton a {
@@ -176,6 +173,18 @@ video {
   will-change: opacity;
 }
 
+.faq {
+  font-size: 1.5em;
+  font-family: var(--tirFont);
+}
+
+.faqTitle {
+  margin: 4em 0 0 3em;
+  position: absolute;
+  font-size: 8rem;
+  font-family: var(--priFont), cursive;
+}
+
 .fs5em {
   font-size: 5em;
 }
@@ -189,7 +198,16 @@ video {
   font-size: 2em;
 }
 
+.green {
+  color: green;
+}
+
 /* hhhhh---------- */
+hr.solid {
+  border-top: 8px dashed #bbb;
+  border-radius: 5px;
+}
+
 .hw100 {
   height: 427px;
   width: 640px;
@@ -245,6 +263,9 @@ video {
 /* nnnnn---------- */
 
 /* ooooo---------- */
+.oxy {
+  font-family: var(--secFont);
+}
 
 /* ppppp---------- */
 .padBot4em {
@@ -331,6 +352,10 @@ video {
   text-decoration: none;
 }
 
+.txDecNo:hover {
+  color: #00ff00
+}
+
 /* uuuuu---------- */
 
 /* vvvvv---------- */
@@ -408,9 +433,8 @@ video {
   }
 
   li {
-    font-size: 1em;
-    margin: 0 0 0.5rem 0.5em;
-    font-family: var(--secFont);
+    font-size: 1.3em;
+    margin: 0 0 0.75em 1em;
   }
 
   .aboutTx {
@@ -437,10 +461,14 @@ video {
     font-size: 1.5em;
   }
 
+  .faqTitle {
+    display: none;
+  }
+
   .greedy {
     font-size: 1.5em;
     position: relative;
-    top: 2em;
+    top: 1.5em;
   }
 
   .hw100 {

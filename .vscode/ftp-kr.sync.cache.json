@@ -2,7 +2,7 @@
   "ftp://premium13.web-hosting.com@wb@ancoralecomputer.com": {
     ".ftpquota": {
       "type": "-",
-      "size": 11,
+      "size": 12,
       "lmtime": 0,
       "modified": true
     },
@@ -20,6 +20,18 @@
     },
     ".vscode": {},
     ".well-known": {},
+    "FAQ.html": {
+      "type": "-",
+      "size": 8183,
+      "lmtime": 0,
+      "modified": false
+    },
+    "bootFix.html": {
+      "type": "-",
+      "size": 7532,
+      "lmtime": 0,
+      "modified": true
+    },
     "favicon.ico": {
       "type": "-",
       "size": 15086,
@@ -35,7 +47,7 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 29458,
+      "size": 30324,
       "lmtime": 0,
       "modified": true
     },
@@ -53,7 +65,7 @@
     },
     "styles.css": {
       "type": "-",
-      "size": 6563,
+      "size": 7466,
       "lmtime": 0,
       "modified": true
     },
