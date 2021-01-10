@@ -14,7 +14,7 @@
     },
     ".htaccess": {
       "type": "-",
-      "size": 565,
+      "size": 540,
       "lmtime": 0,
       "modified": true
     },
@@ -23,6 +23,12 @@
     "FAQ.html": {
       "type": "-",
       "size": 8183,
+      "lmtime": 0,
+      "modified": false
+    },
+    "ads.txt": {
+      "type": "-",
+      "size": 58,
       "lmtime": 0,
       "modified": false
     },
@@ -47,7 +53,7 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 30324,
+      "size": 30491,
       "lmtime": 0,
       "modified": true
     },
