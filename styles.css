@@ -315,8 +315,8 @@ hr.solid {
   background: linear-gradient(90deg, #fff, #000, #fff);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: 3s animate linear infinite;
-  -webkit-animation: 3s animate linear infinite;
+  animation: 5s animate linear infinite;
+  -webkit-animation: 5s animate linear infinite;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
