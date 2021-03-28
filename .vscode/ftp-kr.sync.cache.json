@@ -22,9 +22,9 @@
     ".well-known": {},
     "FAQ.html": {
       "type": "-",
-      "size": 8183,
+      "size": 8458,
       "lmtime": 0,
-      "modified": false
+      "modified": true
     },
     "ads.txt": {
       "type": "-",
@@ -34,7 +34,7 @@
     },
     "bootFix.html": {
       "type": "-",
-      "size": 7532,
+      "size": 7537,
       "lmtime": 0,
       "modified": true
     },
@@ -53,7 +53,7 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 30579,
+      "size": 30558,
       "lmtime": 0,
       "modified": true
     },
