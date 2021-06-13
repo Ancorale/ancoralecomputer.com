@@ -300,6 +300,10 @@ hr.solid {
   text-decoration: none;
 }
 
+.Rye {
+  font-family: Rye;
+}
+
 /* sssss---------- */
 .shineBack {
   background: var(--backGrey);
@@ -336,6 +340,10 @@ hr.solid {
   font-family: var(--priFont), cursive;
 }
 
+.Starjedi {
+  font-family: Starjedi;
+}
+
 /* ttttt---------- */
 .tab {
   text-indent: 5%;
@@ -353,7 +361,7 @@ hr.solid {
 }
 
 .txDecNo:hover {
-  color: #00ff00
+  color: #00ff00;
 }
 
 /* uuuuu---------- */
@@ -376,6 +384,11 @@ hr.solid {
 /* zzzzz---------- */
 
 /* miscs---------- */
+@font-face {
+  font-family: 'Rye', cursive;
+  src: url(Rye.ttf) format("truetype");
+}
+
 @-webkit-keyframes animate {
   0% {
     background-position: -500%;

@@ -2,9 +2,9 @@
   "ftp://premium13.web-hosting.com@wb@ancoralecomputer.com": {
     ".ftpquota": {
       "type": "-",
-      "size": 12,
+      "size": 11,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     ".gitignore": {
       "type": "-",
@@ -14,17 +14,29 @@
     },
     ".htaccess": {
       "type": "-",
-      "size": 589,
+      "size": 455,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     ".vscode": {},
     ".well-known": {},
     "FAQ.html": {
       "type": "-",
-      "size": 8458,
+      "size": 8566,
       "lmtime": 0,
-      "modified": true
+      "modified": false
+    },
+    "Rye.ttf": {
+      "type": "-",
+      "size": 179188,
+      "lmtime": 0,
+      "modified": false
+    },
+    "Starjedi.ttf": {
+      "type": "-",
+      "size": 46512,
+      "lmtime": 0,
+      "modified": false
     },
     "ads.txt": {
       "type": "-",
@@ -34,9 +46,9 @@
     },
     "bootFix.html": {
       "type": "-",
-      "size": 7537,
+      "size": 7645,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "favicon.ico": {
       "type": "-",
@@ -53,15 +65,15 @@
     "images": {},
     "index.html": {
       "type": "-",
-      "size": 30558,
+      "size": 30765,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "scroll.js": {
       "type": "-",
       "size": 1199,
       "lmtime": 0,
-      "modified": true
+      "modified": false
     },
     "sitemap.xml": {
       "type": "-",
@@ -71,7 +83,7 @@
     },
     "styles.css": {
       "type": "-",
-      "size": 7466,
+      "size": 7637,
       "lmtime": 0,
       "modified": true
     },

@@ -9,5 +9,6 @@
   "autoUpload": true,
   "autoDelete": true,
   "autoDownload": false,
+  "ignoreRemoteModification" : true,
   "ignore": [".git", "/.vscode"]
 }
